@@ -14,6 +14,7 @@ This repository is a **public-safe** showcase of backend operational maturity:
 ## What this proves (evidence-driven)
 
 ### 1) DEV/PROD Isolation (single codebase)
+Optional STAGING can be introduced using the same isolation rules and release gates (artifact deploy, smoke checks, rollback).
 Separation is enforced via runtime configuration and service identity (not separate codebases):
 - canonical env sources (no hidden fallback)
 - explicit runtime environment selection
