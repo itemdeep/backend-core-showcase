@@ -9,6 +9,8 @@ This repository is a **public-safe** showcase of backend operational maturity:
 
 > Public-safe note: hostnames, paths, tokens, and secrets are intentionally redacted.
 
+**Case study:** see `CASE_STUDY.md`
+
 ---
 
 ## What this proves (evidence-driven)
