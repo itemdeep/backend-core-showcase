@@ -13,6 +13,8 @@ This repository is a **public-safe** showcase of backend operational maturity:
 
 ## What this proves (evidence-driven)
 
+Evidence examples include: negative tests for environment/DB isolation, repeatable smoke checks after deploy/rollback, and signed URL TTL verification steps.
+
 ### 1) DEV/PROD Isolation (single codebase)
 Optional STAGING can be introduced using the same isolation rules and release gates (artifact deploy, smoke checks, rollback).
 Separation is enforced via runtime configuration and service identity (not separate codebases):
